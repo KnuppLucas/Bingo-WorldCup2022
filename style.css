@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    max-width: 100%;
+    width: 100%;
+    background-color: #ccc;
+    height: 3em;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    display: none;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+#main-content{
+    max-width: 80%;
+    background-color: #ccc;
+    height: 100%;
+    width: 100%;
+    margin: 1.5em auto;
+    border-radius: 10px;
+    padding: 1.2em;
+    display: flex;
+    flex-direction: column;
+}
+
+#main-content-game{
+    max-width: 80%;
+    background-color: #ccc;
+    height: fit-content;
+    width: 100%;
+    margin: 1.5em auto;
+    border-radius: 10px;
+    padding: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.camp-to-login{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 100%;
+    gap: 5%;
+}
+
+.camp-to-login input,
+.campt-to-login input
+{
+    width: 100%;
+}
+
+.login-up{
+    width: 45%;
+}
+
+.login-up input{
+    margin-top: 0.3em;
+    height: 1.9rem;
+    border-bottom: rgb(94, 94, 94) solid 0.15em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+}
+
+.register input{
+    margin-top: 0.3em;
+    height: 1.9rem;
+    border-bottom: rgb(94, 94, 94) solid 0.15em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+}
+
+.camp-to-login p{
+    margin-top: 1em;
+    font-size: 18px;
+}
+
+.register{
+    margin-left: 10%;
+    width: 45%;
+}
+
+.register button,
+.login-up button{
+    width: 100%;
+    margin: 15px auto;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.register button:hover,
+.login-up button:hover{
+    background-color: rgb(92, 91, 91);
+    color: #fff;
+    transition: 0.2s;
+}
+
+.player-paper{
+    max-width: fit-content;
+    background-color: #fff;
+    height: fit-content;
+    margin: 0px 10px;
+}
+
+.opponent-paper{
+    max-width: fit-content;
+    background-color: aquamarine;
+    height: fit-content;
+    margin: 0px 10px;
+}
+
+.table-game{
+    width: 500px;
+    height: 600px;
+    border: 2;
+}
+
+.buttonStart {
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+
+tr{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+td{
+    width: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    align-items: center;
+}
+
+.instructions{
+    font-size: 20px;
+}
+
+.button-start button {
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+
+.button-start button:hover {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(92, 91, 91);
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.many-players{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messages {
+    margin-top: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.buttonToLogin{
+    width: auto;
+    height: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 1em;
+}
